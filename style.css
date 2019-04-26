@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://media.giphy.com/media/jbK2j3HxrZccz12OIB/giphy.gif");
+}
+
+/*header*/
+
+#header-container {
+  height: 90px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 50px;
+}
+#header-container img {
+  border-radius: 20%;
+  height: 80px;
+  width: 120px;
+}
+#header-container .header-menu a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 2px 4px red;
+}
+
+/*HISTOIRE*/
+
+.image-avengers {
+  top: 50px;
+  height: 200px;
+  width: 320px;
+  transform: translateX(390px);
+}
+#histoire .histoire-blocs p {
+  position: absolute;
+  color: white;
+  text-align: center;
+  text-shadow: 0 2px 4px red;
+  transform: translate(10px, 350px);
+  font-size: 24px;
+  font-weight: 700;
+}
+/*
+p {
+  color: white;
+  height: 350px;
+  width: 850px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transform: translateX(350px);
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  border: 4px solid white;
+}*/
+#histoire .histoire-blocs .bloc1 {
+  box-shadow: #2c3e50 35px 35px;
+}
+/*PERSONNAGE*/
+
+#Personnage .personnage-blocs .bloc2 img {
+  transform: translateY(530px);
+  margin-left: 15%;
+}
+#partie1 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  color: white;
+  text-align: center;
+  align-items: center;
+  transform: translate(260px, 650px);
+  border: 4px dashed red;
+  width: 900px;
+  text-shadow: 0 2px 4px red;
+}
+/*
+.partietitre {
+  text-shadow: 0 2px 4px red;
+  border: 2px dashed red;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 200px;
+}
+.partietitre2 {
+  text-shadow: 0 2px 4px red;
+  border: 2px dashed red;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 200px;
+  transform: translateY(200px);
+}
+.partietitre3 {
+  text-shadow: 0 2px 4px red;
+  border: 2px dashed red;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 200px;
+  transform: translateY(200px);
+}
+.partietitre4 {
+  text-shadow: 0 2px 4px red;
+  border: 2px dashed red;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 200px;
+  transform: translateY(200px);
+}*/
+/*IRON MAN
+.partie1 {
+  border: 2px SOLID RED;
+  color: white;
+  text-shadow: 0 2px 4px red;
+  transform: translateY(600px);
+  border: 2px dashed red;
+  height: 610px;
+  width: 180px;
+  margin-left: 10%;
+  text-align: center;
+}
+/*CAPTAIN AMERICA
+.partie2 {
+  border: 2px SOLID RED;
+  color: white;
+  text-shadow: 0 2px 4px red;
+  transform: translateY(-35px);
+  border: 2px dashed red;
+  height: 450px;
+  width: 220px;
+  margin-left: 24%;
+  text-align: center;
+  justify-content: center;
+}
+/*THOR
+.partie3 {
+  border: 2px SOLID red;
+  color: white;
+  text-shadow: 0 2px 4px red;
+  position: absolute;
+  transform: translate(20px, -530px);
+  height: 450px;
+  width: 220px;
+  margin-left: 40%;
+  text-align: center;
+  justify-content: center;
+  border: 2px dashed red;
+}
+/*HULK
+.partie4 {
+  border: 2px SOLID RED;
+  color: white;
+  text-shadow: 0 2px 4px red;
+  transform: translate(-170px, -470px);
+  height: 450px;
+  width: 220px;
+  margin-left: 75%;
+  text-align: center;
+  justify-content: center;
+  border: 2px dashed red;
+}
+
+/*FOOTER*/
+
+#footer {
+  height: 60px;
+  background: #ecf0f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 50px;
+  transform: translateY(690px);
+}
+#footer .footer-reseaux img {
+  margin-right: 25px;
+}
+#footer p {
+  color: black;
+}
